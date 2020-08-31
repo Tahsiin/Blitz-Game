@@ -1,0 +1,294 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Blitz_Game
+</name>
+</assembly>
+<members>
+<member name="T:Blitz_Game.My.Resources.Menu_Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Blitz_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Btn_img_blue1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Btn_img_red1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Forest_img_menu1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Key_Type_sound">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.keysHow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Menu_Resources.Typing_1Key_sound">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="T:Blitz_Game.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Blitz_Game.My.Resources.Stage1_Res">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stage1_Res.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stage1_Res.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stage1_Res.Stage1_Back">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stage1_Res.wood1_h">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Blitz_Game.My.Resources.Stages_Res">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.blood_PNG6110">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_BefUp1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_BefUp2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_BefUp3L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_BefUp4L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_BefUp5L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_1L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_2L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_3L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_4L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_5L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Run_6L">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.CharacA_Stand">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Run1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Run2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Run3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Run4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Standing1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.Character2_Up1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.chestred1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.chestred2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.chestred3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.gameoverpic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.knife_pic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalA1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalA2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalA3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalA4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalA5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalB2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalB3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalB4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Blitz_Game.My.Resources.Stages_Res.PortalB5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Blitz_Game.Database1DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

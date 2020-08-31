@@ -1,0 +1,1 @@
+"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\NoIdentityUser\Desktop\Blitz_SLN(1)\Blitz_SLN\Blitz_SLN\Blitz_Game\Database1.accdb"

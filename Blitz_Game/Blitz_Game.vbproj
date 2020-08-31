@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{496BCB5C-E04E-478E-95A5-951C3C962CB4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Blitz_Game.My.MyApplication</StartupObject>
+    <RootNamespace>Blitz_Game</RootNamespace>
+    <AssemblyName>Blitz_Game</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Blitz_Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Blitz_Game.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database1DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayScore.Designer.vb">
+      <DependentUpon>DisplayScore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayScore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndForm.Designer.vb">
+      <DependentUpon>EndForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EndForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowToPlay.Designer.vb">
+      <DependentUpon>HowToPlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HowToPlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Players_Classes\Player.vb" />
+    <Compile Include="Interfaces_Sec\Inventory.Designer.vb">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces_Sec\Inventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item_Classes\Knife.vb" />
+    <Compile Include="Main_menu_frm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_menu_frm.Designer.vb">
+      <DependentUpon>Main_menu_frm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu_Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Stage1_Res.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Stage1_Res.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Stage1.Designer.vb">
+      <DependentUpon>Stage1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stages\Stage1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stages_Res.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Stages_Res.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DisplayScore.resx">
+      <DependentUpon>DisplayScore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndForm.resx">
+      <DependentUpon>EndForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowToPlay.resx">
+      <DependentUpon>HowToPlay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces_Sec\Inventory.resx">
+      <DependentUpon>Inventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_menu_frm.en.resx">
+      <DependentUpon>Main_menu_frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_menu_frm.resx">
+      <DependentUpon>Main_menu_frm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu_Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stage1_Res.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Stage1_Res.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages\Stage1.resx">
+      <DependentUpon>Stage1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stages_Res.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Stages_Res.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest_img_menu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_img_blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Btn_img_red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blitz_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Typing On Keyboard-SoundBible.com-1459197142.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Typing_1Key.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Flat_Info_Game\Character_Setting.txt" />
+    <None Include="Resources\keysHow.png" />
+    <None Include="Resources\keymapping1.png" />
+    <None Include="Resources\PortalB5.png" />
+    <None Include="Resources\PortalB4.png" />
+    <None Include="Resources\PortalB3.png" />
+    <None Include="Resources\PortalB2.png" />
+    <None Include="Resources\PortalB1.png" />
+    <None Include="Resources\PortalA15.png" />
+    <None Include="Resources\PortalA14.png" />
+    <None Include="Resources\PortalA13.png" />
+    <None Include="Resources\PortalA12.png" />
+    <None Include="Resources\PortalA11.png" />
+    <None Include="Resources\PortalA10.png" />
+    <None Include="Resources\PortalA9.png" />
+    <None Include="Resources\PortalA8.png" />
+    <None Include="Resources\PortalA7.png" />
+    <None Include="Resources\PortalA6.png" />
+    <None Include="Resources\PortalA5.png" />
+    <None Include="Resources\PortalA4.png" />
+    <None Include="Resources\PortalA3.png" />
+    <None Include="Resources\PortalA2.png" />
+    <None Include="Resources\PortalA1.png" />
+    <None Include="Resources\blood_PNG6110.png" />
+    <None Include="Resources\gameoverpic.png" />
+    <None Include="Resources\ConnSTR.txt" />
+    <Content Include="Resources\images_masked.png" />
+    <None Include="Resources\knife_pic.png" />
+    <None Include="Resources\Character2_Up1.png" />
+    <None Include="Resources\Character2_Standing1.png" />
+    <None Include="Resources\Character2_Run4.png" />
+    <None Include="Resources\Character2_Run3.png" />
+    <None Include="Resources\Character2_Run2.png" />
+    <None Include="Resources\Character2_Run1.png" />
+    <None Include="Resources\CharacA_Stand.png" />
+    <None Include="Resources\CharacA_Run_6L.png" />
+    <None Include="Resources\CharacA_Run_5L.png" />
+    <None Include="Resources\CharacA_Run_4L.png" />
+    <None Include="Resources\CharacA_Run_3L.png" />
+    <None Include="Resources\CharacA_Run_2L.png" />
+    <None Include="Resources\CharacA_Run_1L.png" />
+    <None Include="Resources\CharacA_BefUp5L.png" />
+    <None Include="Resources\CharacA_BefUp4L.png" />
+    <None Include="Resources\CharacA_BefUp3L.png" />
+    <None Include="Resources\CharacA_BefUp2L.png" />
+    <None Include="Resources\CharacA_BefUp1L.png" />
+    <None Include="Resources\chestred3.png" />
+    <None Include="Resources\chestred2.png" />
+    <None Include="Resources\chestred1.png" />
+    <None Include="Resources\wood1_h.png" />
+    <None Include="Resources\scrollingBackground.png" />
+    <None Include="Resources\Plain_Back1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppData\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
